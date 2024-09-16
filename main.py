@@ -1,7 +1,7 @@
 import requests
 
 def quote_of_the_day():
-    url = "https://api.quotable.io/random" # Need to update URL
+    url = "https://api.quotable.io/random" # Need to update URL to a new random one
 
     response = requests.get(url)
 
